@@ -1,4 +1,6 @@
+test:
+	node ${f}
 deploy:
 	git add .
-	git commit -m "${comment}"
+	git commit -m "${c}"
 	git push origin main
